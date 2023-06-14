@@ -15,4 +15,7 @@ We have gathered a wide variety of data about the plants available on Kaggle, in
     Provided 3 Plants: Chili, Tomato, Cauliflower
 
 ### Notes
-We have already put our data (subset) which include 3 plants inside Github repo, but you can also use our kaggle to use in Google Colab. For the complete guidance and syntax needed is already included in GColab_prepare_data.ipynb. After you complete with preparing and storing the data you can continue to begin the model training in each plants model.
+We have already put our data (subset) which include 3 plants inside Github repo, but you can also use our kaggle to use in Google Colab. For the complete guidance and syntax needed is already included in [GColab_prepare_data](https://github.com/C23-PS048/Capstone_ML/blob/main/GColab_prepare_data.ipynb). After you complete with preparing and storing the data you can continue to begin the model training in each plants model.
+
+## Saved Model  
+Previously we have done several experiments on several models, we saved in the form of .h5 and also the corvert results from TensorflowLite. In detail we save the raw .h5 results in the saved_model directory according to the plant name. Then we save the converted results to .tflite in the assets directory, you can see the name of the plant along with the train and valid accuracy in the file name, for example tomato_disease*8982*.tflite means it has *89%* training accuracy and *82%* validation accuracy. 
