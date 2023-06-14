@@ -13,3 +13,6 @@ We have gathered a wide variety of data about the plants available on Kaggle, in
     Provided 15 Plants, 54 Class
     * [Subset Dataset](https://www.kaggle.com/datasets/dimasirfan/plants-disease-dataset-subset)
     Provided 3 Plants: Chili, Tomato, Cauliflower
+
+### Notes
+We have already put our data (subset) which include 3 plants inside Github repo, but you can also use our kaggle to use in Google Colab. For the complete guidance and syntax needed is already included in GColab_prepare_data.ipynb. After you complete with preparing and storing the data you can continue to begin the model training in each plants model.
