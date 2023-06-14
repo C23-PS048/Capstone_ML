@@ -24,3 +24,5 @@ Disease Model Accuracy (train/val)% :
 * Chili (89/82)
 * Tomato (89/82)
 * Cauliflower (85/60)
+
+**the accuracy percentages would and may be changed overtime
