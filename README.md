@@ -1,7 +1,6 @@
 # Capstone_ML
 
 ## Dataset 
-
 We have gathered a wide variety of data about the plants available on Kaggle, in total we have collected 15 types of plants and their respective diseases. However, the dataset as a whole is still unbalanced due to the limitations of the data available in the public dataset. To avoid highly biased models, we and our advisor decided to split the dataset into subsets which currently only support 3 crops: Chili, Tomato, Cauliflower. All plant details regarding plant names, short descriptions, along with diseases are available on our Google Spreadsheet.
 
 ### Links
@@ -19,3 +18,9 @@ We have already put our data (subset) which include 3 plants inside Github repo,
 
 ## Saved Model  
 Previously we have done several experiments on several models, we saved in the form of .h5 and also the corvert results from TensorflowLite. In detail we save the raw .h5 results in the saved_model directory according to the plant name. Then we save the converted results to .tflite in the assets directory, you can see the name of the plant along with the train and valid accuracy in the file name, for example tomato_disease*8982*.tflite means it has *89%* training accuracy and *82%* validation accuracy. 
+
+### Summary
+Disease Model Accuracy (train/val)% :
+* Chili (89/82)
+* Tomato (89/82)
+* Cauliflower (85/60)
