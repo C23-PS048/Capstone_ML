@@ -21,7 +21,7 @@ Previously we have done several experiments on several models, we saved in the f
 
 ### Summary
 Disease Model Accuracy (train/val)% :
-* Chili (89/82)
-* Tomato (89/82)
+* Chili (87/90)
+* Tomato (93/77)
 
 **the accuracy percentages would and may be changed overtime
